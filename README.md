@@ -3,25 +3,12 @@ NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PU
 
 ### 차례
 * [필요한 도구](https://github.com/BanjihaLab/PulseKo#필요한-도구) 
-
-* [Materials Required and links for ordering](https://github.com/nasa-jpl/Pulse#materials-required-and-links-for-ordering)
-
-* [Pendant Case](https://github.com/nasa-jpl/Pulse#pendant-case)
-
-* [Circuit Diagram](https://github.com/nasa-jpl/Pulse#circuit-diagram)
-
-* [Assembly of the PULSE pendant](https://github.com/nasa-jpl/Pulse#assembly-of-the-pulse-pendant)
-
-* [Frequently Asked Questions - FAQ's](https://github.com/nasa-jpl/Pulse#frequently-asked-questions---faqs)
-
+* [부품 구입](https://github.com/BanjihaLab/PulseKo#부품-구입)
+* [펜던트 케이스 만들기](https://github.com/BanjihaLab/PulseKo#펜던트-케이스-만들기)
+* [회로도](https://github.com/BanjihaLab/PulseKo#회로도)
+* [PULSE 펜던트 조립](https://github.com/BanjihaLab/PulseKo#pulse-펜던트-조립)
 * [Acknowledgements](https://github.com/nasa-jpl/Pulse#acknowledgements)
-
-* [In The Press](https://github.com/nasa-jpl/Pulse#In-The-Press)
-
 * [Disclaimer](https://github.com/nasa-jpl/Pulse#disclaimer)
-
-* [Contact Us](mailto:pulse@jpl.nasa.gov)
-
 
 
 ### 필요한 도구
@@ -33,6 +20,7 @@ NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PU
 3. Wire Stripper
 
 4. Helping Hands Stand to Assist Soldering (optional)
+
 
 ### 부품 구입
 
@@ -68,7 +56,7 @@ If not using black material for case, the bottom of the IR emitter will need to 
 
 ![cad_with_parts.jpg](Images/cad_with_parts.jpg)
 
-### Circuit Diagram
+### 회로도
 
 ![Circuit_Diagram.jpg](Images/Circuit_Diagram.jpg)
 
@@ -120,28 +108,6 @@ Central to the design of the PULSE pendant is the infrared sensor unit (U1 in th
 
 14. Install the top case. Attach a necklace of your choice and PULSE is complete
 
-### Frequently Asked Questions - FAQ's
-
-1.
-     
-     Q: How is battery life / current draw with the current design? I have trichotillomania and this would be a fantastic help for me and many other sufferers. However it would mean we would have to wear it all day, every day to kick the habit.   From an environmental perspective I imagine we would need to change this to take a small rechargeable battery (possibly charge circuitry too) to result in less batteries going to landfill/recycling centres.
-
-     A: The infrared sensor is the largest current draw and at continuous operation runs the battery down over a day or two depending on use. We are looking at a Version 2 that would include a rechargeable battery. Please look at the Version 2 FAQ question for changes we are considering. 
-
-2.
-     Q: I assume painting the IR sensor is to reduce the gain a bit? Since the high brightness version is backordered, would the low brightness version work? The range is 12 inches. Perhaps using a shorter lanyard. Or we could find another source, which would have us altering the print job.
-
-     A: We paint the bottom of infrared sensor to limit stray transmitted IR light from bouncing back to the IR receiver. The pendant case color effects this quite a bit - for example a black case does not need the IR transmittor painted. The low-brightness version does work but with reduced range.  
-
-3.
-     Q: Can we order these already built? 
-
-     A: We are seeking production houses that would be interested in producing PULSE. 
-
-4.
-     Q: Are you planning on making a version 2?
-
-     A: We Are. Functionality for Pulse Version 2 will have a Printed Circuit Board (PCB) holding all electronics. Standard form factor of PCB with infrared (IR) sensor and switch having standard alignment to pendant case
 
 ### Acknowledgements
 
