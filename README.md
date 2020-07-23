@@ -1,8 +1,8 @@
-# PULSE 한국에서 만들어보자. - a pendant to warn you when you touch your face
-NASA JPL의 [PULSE](https://github.com/nasa-jpl/Pulse)를 한국에서 만들어 봅니다. 
+# PULSE를 한국에서 만들어보자. 
+NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PULSE](https://github.com/nasa-jpl/Pulse) 를 한국에서 만들어 봅니다. 
 
-### Table of Contents
-* [Tools and equipment needed](https://github.com/nasa-jpl/Pulse#tools-and-equipment-needed)
+### 차례
+* [필요한 도구](https://github.com/nasa-jpl/Pulse#필요한-)
 
 * [Materials Required and links for ordering](https://github.com/nasa-jpl/Pulse#materials-required-and-links-for-ordering)
 
@@ -24,7 +24,7 @@ NASA JPL의 [PULSE](https://github.com/nasa-jpl/Pulse)를 한국에서 만들어
 
 
 
-### Tools and equipment needed
+### 필요한 도구
 
 1.	Home-class 3D Printer (PLA material or other as user option; you can also send files out for on-line order)
 
@@ -34,7 +34,7 @@ NASA JPL의 [PULSE](https://github.com/nasa-jpl/Pulse)를 한국에서 만들어
 
 4. Helping Hands Stand to Assist Soldering (optional)
 
-### Materials Required and links for ordering
+### 부품 구입
 
 ![Materials_Required.jpg](Images/Materials_Required.jpg)
 
@@ -58,7 +58,7 @@ NASA JPL의 [PULSE](https://github.com/nasa-jpl/Pulse)를 한국에서 만들어
 
 10. Dark colored paint (i.e., acrylic, oil, nail polish etc.) such as black, navy blue, dark green, etc. (Required only when utilizing non-black colored case material)
  
-### Pendant Case
+### 펜던트 케이스 만들기
 
 The PULSE pendant case was designed to hold the existing parts. Other pendant designs can be created as desired as long as the IR sensor will fit and has a clear view to the front of the pendant.
  
@@ -74,7 +74,7 @@ If not using black material for case, the bottom of the IR emitter will need to 
 
 Central to the design of the PULSE pendant is the infrared sensor unit (U1 in the diagram) that provides a high (~3 V) output signal to pin 3 by default, and drops low (~1 V) when the LED detector (D1) receives a signal indicating your hand (or other reflecting object) is in front of the pendant.  L1 is the radiating infrared LED. When pin 3 goes low, it powers the PNP transistor (Q1) to energize the motor (M1) causing it to vibrate and the pendant to pulse. V1 is the 3 V battery in the case and S1 is the slide switch. Pin 4 on the infrared sensor is an enable input and is not used.
 
-### Assembly of the PULSE pendant
+### PULSE 펜던트 조립
 
 1. Wire W1 solders to the center pin of the switch and wire W2 solders to an end pin of the switch. The third pin on the switch can be 		clipped off – it is not used. Heat shrink covers the pins. This picture shows the completed switch next to an assembled PULSE pendant
 
