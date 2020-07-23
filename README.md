@@ -2,7 +2,7 @@
 NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PULSE](https://github.com/nasa-jpl/Pulse) 를 한국에서 만들어 봅니다. 
 
 ### 차례
-* [필요한 도구](https://github.com/BanjihaLab/PulseKo#필요한-)
+* [필요한 도구](https://github.com/BanjihaLab/PulseKo#필요한-도구) 
 
 * [Materials Required and links for ordering](https://github.com/nasa-jpl/Pulse#materials-required-and-links-for-ordering)
 
