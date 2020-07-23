@@ -13,13 +13,13 @@ NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PU
 
 ### 필요한 도구
 
-1.	Home-class 3D Printer (PLA material or other as user option; you can also send files out for on-line order)
+1.	PLA 3D 프린터 (SLA 3D 프린터 모델링은 아직 수정하지 않았습니다. 프린터가 없는 경우에는 부품을 주문해도 좋습니다.)
 
-2. Soldering Iron and solder
+2. 납땜기, 땜납
 
-3. Wire Stripper
+3. 전선 스트리퍼
 
-4. Helping Hands Stand to Assist Soldering (optional)
+4. 납땜용  (옵션)
 
 
 ### 부품 구입
