@@ -26,25 +26,27 @@ NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PU
 
 ![Materials_Required.jpg](Images/Materials_Required.jpg)
 
-1. IR Sensor unit: Pololu 38 kHz IR Proximity Sensor [Order Here](https://www.pololu.com/product/2578) or equivalent
+대체 가능한 부품이 있다면 대체해도 괜찮습니다.
 
-2. PNP Transistor: 2N3906 or equivalent: [Order Here](https://www.amazon.com/Projects-B-0001-A10f-General-Transistor-92/dp/B07Y3GFR5P/ref=sr_1_6?dchild=1&keywords=2n3906+transistor&qid=1589929461&sr=8-6) or equivalent
+1. IR 센서: Pololu 38 kHz IR Proximity Sensor [구입처](https://www.pololu.com/product/2578)
 
-3. 1 K Ohm standard resistor: [Order Here](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDDWFDD?ref_=ast_slp_dp) or equivalent
+2. PNP 트랜지스터: 2N3906 : [구입처](https://www.amazon.com/Projects-B-0001-A10f-General-Transistor-92/dp/B07Y3GFR5P/ref=sr_1_6?dchild=1&keywords=2n3906+transistor&qid=1589929461&sr=8-6) 
 
-4. Slide Switch to fit case: [Order Here](https://www.amazon.com/gp/product/B07NLR444L/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1) or equivalent
+3. 1 K Ohm 표준 저항 : [구입처](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDDWFDD?ref_=ast_slp_dp) or equivalent
 
-5. Vibrating Motor to fit case [Order 10x2.0mm Vibrating Motor Here](https://www.pololu.com/product/1638) or [Order 10x3.4mm Vibrating Motor Here](https://www.pololu.com/product/1636) 
+4. 케이스에 맞는 슬라이드 스위치 : [구입처](https://www.amazon.com/gp/product/B07NLR444L/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1) or equivalent
 
-6. W1 – 5 cm; W2 – 4 cm; W3 – 2 cm; W4 – 2 cm; 22 Gage Wire
+5. 케이스에 맞는 진동 모터 (10×2.0mm 또는 3.4mm) : [구입처](https://www.pololu.com/product/1638)
 
-7. Heat shrink tubing to cover leads: [Order Here](https://www.amazon.com/560PCS-Heat-Shrink-Tubing-Eventronic/dp/B072PCQ2LW/ref=sr_1_5?dchild=1&keywords=shrink+wrap&qid=1589929721&s=industrial&sr=1-5) or equivalent to cover a 2.5mm diameter wire
+6. 22 AWG 전선 : W1 – 5 cm; W2 – 4 cm; W3 – 2 cm; W4 – 2 cm
 
-8. Battery Holder: [Order Here](https://www.amazon.com/gp/product/B07FL8MFK8/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1) or equivalent
+7. 수축 튜브 (납땜 부분 절연 피복용) : 2.5mm 전선용
 
-9. 3V CR2032 Coin Battery: [Order Here](https://www.amazon.com/gp/product/B071D4DKTZ/ref=ppx_yo_dt_b_asin_title_o09_s01?ie=UTF8&psc=1) or equivalent
+8. 배터리 홀더: [구입처](https://www.amazon.com/gp/product/B07FL8MFK8/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1) 
 
-10. Dark colored paint (i.e., acrylic, oil, nail polish etc.) such as black, navy blue, dark green, etc. (Required only when utilizing non-black colored case material)
+9. 3V CR2032 배터리: [구입처](https://www.amazon.com/gp/product/B071D4DKTZ/ref=ppx_yo_dt_b_asin_title_o09_s01?ie=UTF8&psc=1) 
+
+10. 어두운 색의 (검정, 네이비블루, 다크그린 등) 도색재료 (예: 아크릴물감, 유화물감, 매니큐어 등) - 케이스가 어두운 색이 아닌 경우에만 필요 
  
 ### 펜던트 케이스 만들기
 
