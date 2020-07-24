@@ -7,8 +7,8 @@ NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PU
 * [펜던트 케이스 만들기](https://github.com/BanjihaLab/PulseKo#펜던트-케이스-만들기)
 * [회로도](https://github.com/BanjihaLab/PulseKo#회로도)
 * [PULSE 펜던트 조립](https://github.com/BanjihaLab/PulseKo#pulse-펜던트-조립)
-* [Acknowledgements](https://github.com/nasa-jpl/Pulse#acknowledgements)
-* [Disclaimer](https://github.com/nasa-jpl/Pulse#disclaimer)
+* [Acknowledgements](https://github.com/BanjihaLab/PulseKo#acknowledgements)
+* [Disclaimer](https://github.com/BanjihaLab/PulseKo#면책사항)
 
 
 ### 필요한 도구
