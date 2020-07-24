@@ -26,7 +26,8 @@ NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PU
 
 ![Materials_Required.jpg](Images/Materials_Required.jpg)
 
-대체 가능한 부품이 있다면 대체해도 괜찮습니다.
+대체 가능한 부품이 있다면 대체해도 괜찮습니다. PULSE 반지하랩 포크에서는 가능한 한국 구입처에서 모두 구입하는 것을 목표로 했습니다.
+
 
 1. IR 센서: Pololu 38 kHz IR Proximity Sensor [구입처](https://www.pololu.com/product/2578)
 
@@ -112,7 +113,10 @@ Central to the design of the PULSE pendant is the infrared sensor unit (U1 in th
 
 
 ### Acknowledgements
+PulseKo는 [반지하랩](https://banjihalab.com)에서 NASA JPL의 [Pulse](https://github.com/nasa-jpl/Pulse)를 한국에서 제작해보기 좋도록 만들어 보고 그 방법을 공유하기 위한 프로젝트입니다.
 
+
+##### [Ackowldgements](https://github.com/nasa-jpl/Pulse#acknowledgements)
 In early March of 2020, it was becoming quite apparent that the pandemic has reached the United States. We, like so many other countries, would have to partake in precautionary methods to protect ourselves from contracting a novel virus that was affecting the world in unrecognizable ways.  
 
 With little information available, we turned to the CDC for guidance. They provide the general public with a clear list of tasks to help prevent infection, one of which was advising us not to touch our faces. As the news unfolded and the warnings heightened, we found ourselves immersed in discussions related to the topic, most of which consisted of commiserating on the laborious task of not touching our face. During a Monday morning tag-up, and as our team members revealed how often they touch their face, [Tom Cwik](mailto:pulse@jpl.nasa.gov), the engineer, and [Faith Oftadeh](mailto:pulse@jpl.nasa.gov), the designer, suddenly realized that a simple wearable device may help with this problematic subconscious behavior. 
@@ -124,8 +128,11 @@ Dave Gallagher, JPL’s Associate Lab Director provided significant encouragemen
 Our goal was to create a simple device that can help minimize the spread of a virus. We also hope that the public can further develop this concept. As we return to our office spaces and attempt to integrate back into society, we believe that PULSE may help others stay as healthy as possible.
 
 
-### Disclaimer
+### 면책사항
+반지하랩은 Pulse의 작동이나 효과에 대해 보증할 수 없습니다. 아래의 NASA JPL의 Disclaimer를 확인해주세요.
+
+#####[Disclaimer](https://github.com/nasa-jpl/Pulse#disclaimer)
 
 Disclaimer: The designs herein have not been reviewed, cleared, or approved by FDA or other regulatory authority, nor have they received Coronavirus Disease 2019 (COVID-19) Emergency Use Authorizations for Medical Devices. Neither California Institute of Technology (including the Jet Propulsion Laboratory)("Caltech") nor its employees or agents provide any representation or warranty, express or implied, for fitness for a particular purpose, safety, efficacy, or non-infringement of any third party intellectual property rights. Caltech offers these device designs in good faith to help healthcare providers and others prevent the spread of and treat patients with COVID-19. Physicians and other healthcare providers bear full responsibility to convey warnings and obtain patients' informed consent.
 
-### The research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration.
+##### The research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration.
