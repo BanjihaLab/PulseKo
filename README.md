@@ -26,7 +26,7 @@ NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PU
 
 ![Materials_Required.jpg](Images/Materials_Required.jpg)
 
-대체 가능한 부품이 있다면 대체해도 괜찮습니다. PULSE 반지하랩 포크에서는 가능한 한국 구입처에서 모두 구입하는 것을 목표로 했습니다.
+대체 가능한 부품이 있다면 대체해도 괜찮습니다. PULSE 반지하랩 포크에서는 가능한 한국 구입처에서 모두 구입하는 것을 목표로 했습니다. (아직 구입처를 정리하지 않았습니다. 업데이트 예정)
 
 
 1. IR 센서: Pololu 38 kHz IR Proximity Sensor [구입처](https://www.pololu.com/product/2578)
@@ -51,9 +51,9 @@ NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PU
  
 ### 펜던트 케이스 만들기
 
-The PULSE pendant case was designed to hold the existing parts. Other pendant designs can be created as desired as long as the IR sensor will fit and has a clear view to the front of the pendant.
- 
-If not using black material for case, the bottom of the IR emitter will need to be painted black or covered with black electrical tape to absorb any light. If this is not done, the sensor will read false motion and vibrate continuously. Only the flat bottom, do not cover the whole LED.
+PULSE 펜던트 케이스는 부품을 잘 모아서 고정해줄 수 있도록 설계한 것입니다. IR 센서가 잘 고정되고, 펜던트 앞 부분이 잘 뚫려 있다면 다른 디자인으로 만들어도 좋습니다. 
+
+케이스 재료가 어두운 색이 아니라면, IR Emitter의 아래쪽에 (빛을 흡수하는) 검정색으로 칠하거나 검정 절연 테이프를 붙여 주세요. 그래야 센서의 오감지가 줄어듭니다. 주의할 점은 평평한 아래부분만을 칠하는 것이지, 전체 LED를 칠하면 안 된다는 점입니다.
 
 [Download STL Files](https://github.com/nasa-jpl/Pulse/tree/master/CAD)
 
@@ -63,7 +63,7 @@ If not using black material for case, the bottom of the IR emitter will need to 
 
 ![Circuit_Diagram.jpg](Images/Circuit_Diagram.jpg)
 
-Central to the design of the PULSE pendant is the infrared sensor unit (U1 in the diagram) that provides a high (~3 V) output signal to pin 3 by default, and drops low (~1 V) when the LED detector (D1) receives a signal indicating your hand (or other reflecting object) is in front of the pendant.  L1 is the radiating infrared LED. When pin 3 goes low, it powers the PNP transistor (Q1) to energize the motor (M1) causing it to vibrate and the pendant to pulse. V1 is the 3 V battery in the case and S1 is the slide switch. Pin 4 on the infrared sensor is an enable input and is not used.
+PULSE 펜던트에서 가장 중요한 것은 적외 (infrared) 센서입니다. (회로도의 U1) 이 센서는 기본적으로 pin 3에 높은 (~3V) 출력 신호를 내지만, LED 검출기(detector; D1)가 (다른 반사체인 경우도 있겠지만) 여러분의 손이 펜던트 앞에 있다는 신호를 받으면 낮은 출력 (~1V)으로 신호 강도가 떨어집니다. L1은 적외선을 방출하는 LED 입니다. pin 3의 출력이 낮아지면, PNP 트랜지스터 (Q1)가 진동모터 (M1)에 전력을 공급하게 되고, 펜던트가 진동하게 해줍니다. V1은 3V 배터리를 케이스에 넣은 것이고, S1은 슬라이드 스위치입니다. IR 센서의 Pin 4는 IR 방출기 작동을 컨트롤하는 핀이지만 사용하지 않습니다.
 
 ### PULSE 펜던트 조립
 
