@@ -56,7 +56,9 @@ PULSE 펜던트 케이스는 부품을 잘 모아서 고정해줄 수 있도록 
 
 케이스 재료가 어두운 색이 아니라면, IR Emitter의 아래쪽에 (빛을 흡수하는) 검정색으로 칠하거나 검정 절연 테이프를 붙여 주세요. 그래야 센서의 오감지가 줄어듭니다. 주의할 점은 평평한 아래부분만을 칠하는 것이지, 전체 LED를 칠하면 안 된다는 점입니다.
 
-[Download STL Files](https://github.com/nasa-jpl/Pulse/tree/master/CAD)
+[한국버전 STL 파일](https://github.com/BanjihaLab/PulseKo/tree/master/CAD/FDM)
+
+아직 FDM 버전만 수정되었습니다. SLA 버전은 차후 업데이트 예정입니다.
 
 ![cad_with_parts.jpg](Images/cad_with_parts.jpg)
 
