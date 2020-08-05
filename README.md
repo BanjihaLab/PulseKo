@@ -26,26 +26,27 @@ NASA JPL에서 코로나19 감염 방지에 도움을 주기위해 제작한 [PU
 
 ![Materials_Required.jpg](Images/Materials_Required.jpg)
 
-대체 가능한 부품이 있다면 대체해도 괜찮습니다. PULSE 반지하랩 포크에서는 가능한 한국 구입처에서 모두 구입하는 것을 목표로 했습니다. (아직 구입처를 정리하지 않았습니다. 업데이트 예정)
+PULSE 반지하랩 포크에서는 가능한 한국 구입처에서 모두 구입하는 것을 목표로 했습니다. 
+크기나 기능이 동일한 대체 부품이 있다면 대체해도 습니다. 
 
 
-1. IR 센서: Pololu 38 kHz IR Proximity Sensor [구입처](https://www.pololu.com/product/2578)
+1. IR 센서: Pololu 38 kHz IR Proximity Sensor [구입처1](http://mechasolution.com/shop/goods/goods_view.php?goodsno=8322&category=) 또는 [구입처2](https://www.devicemart.co.kr/goods/view?no=1164601) - [대량 구매시 구입처](https://www.pololu.com/product/2578)
 
-2. PNP 트랜지스터: 2N3906 : [구입처](https://www.amazon.com/Projects-B-0001-A10f-General-Transistor-92/dp/B07Y3GFR5P/ref=sr_1_6?dchild=1&keywords=2n3906+transistor&qid=1589929461&sr=8-6) 
+2. PNP 트랜지스터: 2N3906 : [구입처](https://smartstore.naver.com/ic11401/products/620068038) 
 
-3. 1 K Ohm 표준 저항 : [구입처](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDDWFDD?ref_=ast_slp_dp) or equivalent
+3. 1/4w 1K Ohm  저항 : [구입처1](http://mechasolution.com/shop/goods/goods_view.php?goodsno=948&category=) 또는 [구입처2](https://www.devicemart.co.kr/goods/view?no=2014)
 
-4. 케이스에 맞는 슬라이드 스위치 : [구입처](https://www.amazon.com/gp/product/B07NLR444L/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1) or equivalent
+4. 수정한 케이스에 맞는 슬라이드 스위치 : [구입처](https://smartstore.naver.com/ic11401/products/628697425?NaPm=ct%3Dkdgvax8m%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3D801e80d3ad9f8f107f6142780b8290a293c08b11) 또는 같은 크기의 제품 - 다른 크기 제품 사용 시 케이스 3D 모델 수정 필요
 
-5. 케이스에 맞는 진동 모터 (10×2.0mm 또는 3.4mm) : [구입처](https://www.pololu.com/product/1638)
+5. 케이스에 맞는 진동 모터 (10×2.0mm 또는 3.4mm) : [구입처](https://smartstore.naver.com/ic11401/products/578176188?NaPm=ct%3Dkdgvc6mq%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3Db2dab79e1aebe24a11cd3736cb2741df288beb5b)
 
 6. 22 AWG 전선 : W1 – 5 cm; W2 – 4 cm; W3 – 2 cm; W4 – 2 cm
 
 7. 수축 튜브 (납땜 부분 절연 피복용) : 2.5mm 전선용
 
-8. 배터리 홀더: [구입처](https://www.amazon.com/gp/product/B07FL8MFK8/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1) 
+8. 배터리 홀더: [구입처1](http://mechasolution.com/shop/goods/goods_view.php?goodsno=8322&category=) 또는 [구입처2](https://www.devicemart.co.kr/goods/view?no=1164601)
 
-9. 3V CR2032 배터리: [구입처](https://www.amazon.com/gp/product/B071D4DKTZ/ref=ppx_yo_dt_b_asin_title_o09_s01?ie=UTF8&psc=1) 
+9. 3V CR2032 배터리: [구입처](https://smartstore.naver.com/ic11401/products/663513466) 또는 가까운 마트 등
 
 10. 어두운 색의 (검정, 네이비블루, 다크그린 등) 도색재료 (예: 아크릴물감, 유화물감, 매니큐어 등) - 케이스가 어두운 색이 아닌 경우에만 필요 
  
@@ -66,6 +67,8 @@ PULSE 펜던트 케이스는 부품을 잘 모아서 고정해줄 수 있도록 
 PULSE 펜던트에서 가장 중요한 것은 적외 (infrared) 센서입니다. (회로도의 U1) 이 센서는 기본적으로 pin 3에 높은 (~3V) 출력 신호를 내지만, LED 검출기(detector; D1)가 (다른 반사체인 경우도 있겠지만) 여러분의 손이 펜던트 앞에 있다는 신호를 받으면 낮은 출력 (~1V)으로 신호 강도가 떨어집니다. L1은 적외선을 방출하는 LED 입니다. pin 3의 출력이 낮아지면, PNP 트랜지스터 (Q1)가 진동모터 (M1)에 전력을 공급하게 되고, 펜던트가 진동하게 해줍니다. V1은 3V 배터리를 케이스에 넣은 것이고, S1은 슬라이드 스위치입니다. IR 센서의 Pin 4는 IR 방출기 작동을 컨트롤하는 핀이지만 사용하지 않습니다.
 
 ### PULSE 펜던트 조립
+
+아래의 원래의 조립 설명서와 함께 [링크](https://banjihalab.com/covid-19_pulse_pendant-2)를 참조해서 조립해주세요.
 
 1. Wire W1 solders to the center pin of the switch and wire W2 solders to an end pin of the switch. The third pin on the switch can be 		clipped off – it is not used. Heat shrink covers the pins. This picture shows the completed switch next to an assembled PULSE pendant
 
